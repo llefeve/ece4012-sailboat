@@ -10,6 +10,7 @@ source $HOME/catkin_ws/devel/setup.bash
 xterm -hold -e "rosrun rosserial_python serial_node.py /dev/ttyACM0" &
 xterm -hold -e "rosrun sailboat listen" &
 xterm -hold -e "rosrun sailboat motorcontrol" &
+xterm -hold -e "rosrun sailboat imu_talker.py" &
 
 exit 0
 
