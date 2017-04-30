@@ -4,7 +4,7 @@ sudo chmod a+rw /dev/ttyACM0
 cd $HOME
 xterm -hold -e "roscore" &
 xterm -hold -e "MOOSDB" &
-cd /home/llefeve/repos/moos-ros-bridge/moosros
+cd $HOME/moos-ros-bridge/moosros
 xterm -hold -e "rosrun moosros Bridge sailboat.xml bridge.moos" &
 source $HOME/catkin_ws/devel/setup.bash
 xterm -hold -e "rosrun rosserial_python serial_node.py /dev/ttyACM0" &
