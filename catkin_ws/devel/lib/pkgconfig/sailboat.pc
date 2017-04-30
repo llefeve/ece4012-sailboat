@@ -1,0 +1,8 @@
+prefix=/home/llefeve/catkin_ws/devel
+
+Name: sailboat
+Description: Description of sailboat
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/llefeve/catkin_ws/devel/lib 
+Requires: 

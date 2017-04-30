@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/llefeve/repos/moos-ros-bridge/moosros/build/devel/setup.sh

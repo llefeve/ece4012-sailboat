@@ -1,0 +1,75 @@
+<moosrosconfig>
+
+  <message>
+    <moosname>finalBin</moosname>
+    <rosname>finalBin</rosname>
+    <moostype>Double</moostype>
+    <rostype>std_msgs/Int32</rostype>
+    <direction>toMOOS</direction>
+  </message>
+
+  <message>
+    <moosname>finalLidar</moosname>
+    <rosname>finalLidar</rosname>
+    <moostype>Double</moostype>
+    <rostype>std_msgs/Int32</rostype>
+    <direction>toMOOS</direction>
+  </message>
+
+  <message>
+    <moosname>finalEncoder</moosname>
+    <rosname>finalEncoder</rosname>
+    <moostype>Double</moostype>
+    <rostype>std_msgs/Int32</rostype>
+    <direction>toMOOS</direction>
+  </message>
+
+  <message>
+    <moosname>finalSonar</moosname>
+    <rosname>finalSonar</rosname>
+    <moostype>Double</moostype>
+    <rostype>std_msgs/Int32</rostype>
+    <direction>toMOOS</direction>
+  </message>
+
+  <message>
+    <moosname>finalCompass</moosname>
+    <rosname>finalCompass</rosname>
+    <moostype>String</moostype>
+    <rostype>std_msgs/String</rostype>
+    <direction>toMOOS</direction>
+  </message>
+
+  <message>
+    <moosname>finalRoll</moosname>
+    <rosname>finalRoll</rosname>
+    <moostype>String</moostype>
+    <rostype>std_msgs/String</rostype>
+    <direction>toMOOS</direction>
+  </message>
+
+  <message>
+    <moosname>finalPitch</moosname>
+    <rosname>finalPitch</rosname>
+    <moostype>String</moostype>
+    <rostype>std_msgs/String</rostype>
+    <direction>toMOOS</direction>
+  </message>
+
+  <message>
+    <moosname>DESIRED_HEADING</moosname>
+    <rosname>DESIRED_HEADING</rosname>
+    <moostype>Double</moostype>
+    <rostype>std_msgs/Int32</rostype>
+    <direction>toROS</direction>
+  </message>
+
+  <message>
+    <moosname>NAV_HEADING</moosname>
+    <rosname>NAV_HEADING</rosname>
+    <moostype>Double</moostype>
+    <rostype>std_msgs/Int32</rostype>
+    <direction>toROS</direction>
+  </message>
+
+</moosrosconfig>
