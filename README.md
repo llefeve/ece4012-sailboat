@@ -8,3 +8,5 @@ the various sensors and motors used throughout the project.
 
 The moos-ros-bridge subdirectory trasnfers all the the published rostopics to the active 
 MOOSDB for use in any given mission.
+
+NOTE: The rosserial repository in ece4012-sailboat/catkin_ws/src/ can be found and downloaded from https://github.com/ros-drivers/rosserial
